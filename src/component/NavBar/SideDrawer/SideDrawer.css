@@ -1,0 +1,42 @@
+.SideDrawer{
+    width: 280px;
+    max-width: 70%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    z-index: 200;
+    transition: transform .3s ease-out;
+}
+
+.profile{
+    height: 220px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #00646b;
+}
+
+
+.profileData{
+    padding-top:15px;
+}
+
+.profileData p{
+    text-align: center;
+    margin: 0;
+}
+
+
+
+img{
+    border-radius: 50%;
+}
+.open{
+    transform: translateX(0);
+}
+
+.close{
+    transform: translateX(-100%);
+}
