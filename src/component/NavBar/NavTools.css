@@ -10,9 +10,19 @@
     align-items: center;
     box-sizing: border-box;
     padding:0 20px;
-    z-index: 90;
+    z-index: 300;
     border-bottom: 1px solid #ccc;
     background-color: white;
-    color: grey;
+    color: #00646b;
 }
 
+.Brand{
+    font-size: xx-large;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+@media(max-width:499px){
+    .DesktopOnly{
+        display:none;
+    }
+}

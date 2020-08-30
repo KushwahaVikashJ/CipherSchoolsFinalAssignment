@@ -25,6 +25,7 @@ export const profileFetch =()=>{
         dispatch(profileStart());
         axios.get('/profile.json')
         .then(res=>{
+            console.log(res.data);
             dispatch(profileSuccess(res.data));
         })
         .catch(err=>{

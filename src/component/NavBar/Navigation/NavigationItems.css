@@ -5,4 +5,16 @@
     flex-flow: column;
     height: 100%;
     list-style: none;
+    margin: 5px 10px;
+}
+
+.NavigationItems a{
+    list-style: none;
+    text-decoration: none;
+}
+
+@media(min-width:500px){
+    .NavigationItems{
+        flex-flow: row;
+    }
 }

@@ -3,7 +3,7 @@ import React from 'react';
 import classes from './SideDrawer.css';
 import Backdrop from '../../UI/Backdrop/Backdrop';
 import Spinner from '../../UI/Spinner/Spinner';
-import image from '../../../Assets/image/image.png';
+import image from '../../../Assets/image/image.jpg';
 import NavigationItems from '../Navigation/NavigationItems';
 
 const SideDrawer = (props)=>{
@@ -15,11 +15,9 @@ const SideDrawer = (props)=>{
 
     let data = (
             <div className={classes.profileData}>
-                <img src={image} alt="student" width="100" height="100"/>
+                <img className={classes.profileImage} src={image} alt="student" width="100" height="100"/>
                 <p>{props.profile.name}</p>
-                <p>{props.profile.roll}</p>
-                <p>{props.profile.branch}</p>
-                <p>{props.profile.year}</p>
+                <p>{props.profile.email}</p>
             </div>
     )
 

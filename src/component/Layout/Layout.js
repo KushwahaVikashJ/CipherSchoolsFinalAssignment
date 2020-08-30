@@ -42,8 +42,8 @@ class Layout extends Component{
 
 const mapStateToProps = state => {
     return{
-        profile:state.profile.profile,
-        spinner:state.profile.spinner
+        profile:state.profile,
+        spinner:state.spinner
     }
 }
 

@@ -14,5 +14,11 @@
     font-weight: normal;
     width: 90%;
     height: 3px;
-    background-color: grey;
+    background-color: #00646b;
+}
+
+@media (min-width: 500px) {
+    .DrawerToggle {
+        display: none;
+    }
 }

@@ -4,11 +4,12 @@ import classes from './NavigationItems.css';
 import NavigationItem from './NavigationItem/NavigationItem'
 
 const NavigationItems = (props)=>{
+
     return(
         <ul className={classes.NavigationItems}>
-            <NavigationItem link={'/'}>Dashboard</NavigationItem>
-            <NavigationItem link={'/admission'}>Admission</NavigationItem>
-            <NavigationItem link={'/'}>Logout</NavigationItem>
+            <NavigationItem link={'/'}>Home</NavigationItem>
+            <NavigationItem link={'/contact'}>Contact</NavigationItem>
+            <NavigationItem link={'/resume'}>Resume</NavigationItem>
         </ul>
     )
 }
