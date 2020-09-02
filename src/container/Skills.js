@@ -31,6 +31,7 @@ class Skills extends Component{
                         <li>MongoDB</li>
                         <li>Mongoose</li>
                         <li>Rest API</li>
+                        <li>MySql</li>
                     </ul>
                 </div>
                 <hr></hr>
