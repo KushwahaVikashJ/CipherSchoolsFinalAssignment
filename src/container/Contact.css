@@ -9,8 +9,16 @@
     padding: 10px;
 }
 
+.icons a{
+    color: white;
+}
+
+.icons a:hover{
+    color:grey;
+}
+
 .icon{
-    margin: 0 0 20px 20px;
+    margin: 0 10px 0px 10px;
 }
 
 .contactImage{

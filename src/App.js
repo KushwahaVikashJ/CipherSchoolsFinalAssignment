@@ -4,7 +4,7 @@ import {Route} from 'react-router-dom';
 import Layout from './component/Layout/Layout';
 import Home from './container/Home';
 import Contact from './container/Contact';
-import Resume from './container/Resume';
+import Skills from './container/Skills';
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
       <Layout>
           <Route path='/' exact component={Home}/>
           <Route path='/contact' component={Contact}/>
-          <Route path='/resume' component={Resume}/>
+          <Route path='/skills' component={Skills}/>
       </Layout>
     </div>
   );

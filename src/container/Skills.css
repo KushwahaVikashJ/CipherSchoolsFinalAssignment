@@ -1,0 +1,34 @@
+.skills{    
+    text-align: center;
+    color: white;
+}
+
+.skills h1{
+    font-family: cursive;
+}
+
+ul{
+    list-style: none;    
+}
+
+.skill li{
+    margin-right: 40px;
+}
+
+.skill a{
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 9%;
+}
+
+.skill a:hover{
+    background-color:#eee;
+    color:#66d9eb;
+    border: 1px solid #66d9eb;
+}
+
+hr{
+    width: 50%;
+}
