@@ -29,6 +29,10 @@ ul{
     border: 1px solid #66d9eb;
 }
 
+.resume{
+    margin-top: 15px;
+}
+
 hr{
     width: 50%;
 }

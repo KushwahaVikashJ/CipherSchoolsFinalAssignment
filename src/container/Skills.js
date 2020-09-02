@@ -36,7 +36,10 @@ class Skills extends Component{
                 <div>
                     <h3>More</h3>
                     <ul className={classes.skill}>
-                        <li><a href='https://drive.google.com/file/d/1if93SRfzPicWFiK-EbSnPqiv9e8t8dgG/view'>Resume</a></li>                        
+                        <li>Git</li>
+                        <li>Github</li>
+                        <li>Firebase</li>
+                        <li className={classes.resume}><a href='https://drive.google.com/file/d/1if93SRfzPicWFiK-EbSnPqiv9e8t8dgG/view'>Resume</a></li>                        
                     </ul>
                 </div>
                 <ParticlesBg color="#66d9eb" num={30} type="cobweb" bg={true} />
