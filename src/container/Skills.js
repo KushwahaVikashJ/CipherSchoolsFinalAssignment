@@ -13,11 +13,12 @@ class Skills extends Component{
                 <div>
                     <h3>Frontend</h3>
                     <ul className={classes.skill}>
-                        <li>HTML</li>
-                        <li>CSS</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
                         <li>JS</li>
                         <li>ES6</li>
                         <li>React</li>
+                        <li>Redux</li>
                     </ul>
                 </div>
 
@@ -26,7 +27,7 @@ class Skills extends Component{
                     <h3>Backend</h3>
                     <ul className={classes.skill}>
                         <li>Node</li>
-                        <li>Expres</li>
+                        <li>Express</li>
                         <li>MongoDB</li>
                         <li>Mongoose</li>
                         <li>Rest API</li>
