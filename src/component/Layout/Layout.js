@@ -33,8 +33,8 @@ class Layout extends Component{
                 <SideDrawer profile={this.props.profile} spinner={this.props.spinner} open={this.state.open} BackdropClicked={this.toggleHandlerClose}/>
                 <NavTools toggleClicked={this.toggleHandlerOpen} open={this.state.open} BackdropClicked={this.toggleHandlerClose}/>
                 <div className={classes.content}>
-                    {this.props.children}
-                </div>            
+                    {this.props.children}                    
+                </div>
             </div>
         )
     }

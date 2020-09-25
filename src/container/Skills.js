@@ -41,7 +41,7 @@ class Skills extends Component{
                         <li>Git</li>
                         <li>Github</li>
                         <li>Firebase</li>
-                        <li className={classes.resume}><a href='https://drive.google.com/file/d/1if93SRfzPicWFiK-EbSnPqiv9e8t8dgG/view'>Resume</a></li>                        
+                        <li className={classes.resume}><a href='https://drive.google.com/file/d/1RfYuEVMJk947USksHDcyGuwkhpafiW1C/view?usp=sharing'>Resume</a></li>                        
                     </ul>
                 </div>
                 <ParticlesBg color="#66d9eb" num={30} type="cobweb" bg={true} />
